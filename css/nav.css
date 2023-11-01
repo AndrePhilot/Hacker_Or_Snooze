@@ -15,13 +15,39 @@ nav {
 }
 
 .nav-link {
+  display: flex;
   font-size: 1rem;
   margin: 0 3px;
   padding: 10px;
   font-weight:900;
 }
 
+@media (max-width: 747px) {
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 689px) {
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
 .nav-right {
   margin-left: auto;
   text-align: right;
+}
+
+.main-nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center
+  white-space: nowrap;
+}
+
+@media (max-width: 556px) {
+  .main-nav-links {
+    display: block;
+  }
 }
