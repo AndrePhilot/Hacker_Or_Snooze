@@ -162,6 +162,7 @@ form > hr {
 .box {
   width: 85vw;
   height: 85vh;
+  overflow: auto;
 }
 
 span {
