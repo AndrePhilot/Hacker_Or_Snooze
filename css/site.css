@@ -115,3 +115,16 @@ form > hr {
   width: 85vw;
   height: 85vh;
 }
+
+span {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+img {
+  width: 20px;
+  margin: 5px;
+}
