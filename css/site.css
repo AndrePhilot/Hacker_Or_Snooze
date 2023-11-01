@@ -1,11 +1,60 @@
 /* General typography */
 
+html {
+  min-height: 660px;
+}
+
+@media (max-height: 659px) {
+  .stories-list {
+    height: 400px;
+  }
+}
+
+@media (max-height: 600px) {
+  .stories-list {
+    height: 350px;
+  }
+}
+
+@media (max-height: 550px) {
+  .stories-list {
+    height: 300px;
+  }
+}
+
+@media (max-height: 500px) {
+  .stories-list {
+    height: 250px;
+  }
+}
+
+@media (max-height: 450px) {
+  .stories-list {
+    height: 200px;
+  }
+}
+
+@media (max-height: 400px) {
+  .stories-list {
+    height: 150px;
+  }
+}
+
+@media (max-height: 350px) {
+  .stories-list {
+    height: 100px;
+  }
+}
+
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   font-family: Arimo, sans-serif;
-  margin: 8px 7.5vw;
-  background: radial-gradient(lightpink, cornflowerblue);
+  margin: 0 auto;
+  background: radial-gradient(#86ff46, #46e2ff);
 }
 
 h1 {
@@ -42,7 +91,7 @@ a:hover {
   align-self: center;
   background-color: #f6f6ef;
   overflow-y: auto;
-  max-height: 85vh;
+  max-height: 75vh;
 }
 
 .hidden {
@@ -118,7 +167,7 @@ form > hr {
 
 span {
   font-size: 15px;
-  color: white;
+  color: black;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -126,5 +175,5 @@ span {
 
 img {
   width: 20px;
-  margin: 5px;
+  margin: 5px 5px 0px 5px;
 }
