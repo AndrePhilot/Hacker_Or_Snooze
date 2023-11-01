@@ -48,26 +48,28 @@
     </div>
   </nav>
 
+<!-- New Story Form -->
+<section class="container">
+  <form id="submit-form" class="hidden">
+    <div>
+      <label for="create-author">author</label>
+      <input id="create-author" placeholder="author name" required>
+    </div>
+    <div>
+      <label for="create-title">title</label>
+      <input id="create-title" placeholder="story title" required>
+    </div>
+    <div>
+      <label for="create-url">url</label>
+      <input id="create-url" placeholder="story url" required type="url">
+    </div>
+    <button type="submit">submit</button>
+    <hr>
+  </form>
+</section>
+
   <!-- area for stories (all stories, user stories, favorites) -->
   <section class="stories-container container">
-
-    <!-- New Story Form -->
-    <form id="submit-form" class="hidden">
-      <div>
-        <label for="create-author">author</label>
-        <input id="create-author" placeholder="author name" required>
-      </div>
-      <div>
-        <label for="create-title">title</label>
-        <input id="create-title" placeholder="story title" required>
-      </div>
-      <div>
-        <label for="create-url">url</label>
-        <input id="create-url" placeholder="story url" required type="url">
-      </div>
-      <button type="submit">submit</button>
-      <hr>
-    </form>
 
     <!-- loading message (removed by JS after stories loaded) -->
     <div id="stories-loading-msg">Loading&hellip;</div>
@@ -119,7 +121,6 @@
   </section>
 </div>
 <a href="https://www.linkedin.com/in/andre-philot/" target="_blank"><span>Developed by Andre Philot<img src="logo.jpg" alt="Developer's logo"></span></a>
-
 <!-- Library JS & our JS -->
 <script src="https://unpkg.com/jquery"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>

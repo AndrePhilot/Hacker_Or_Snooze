@@ -47,9 +47,8 @@ function updateNavOnLogin() {
 function navSubmitStoryClick() {
   hidePageComponents();
   $mainNavLinks.show();
-  putStoriesOnPage();
+  $submitForm.slideToggle(1000);
   $allStoriesList.show();
-  $submitForm.show();
   fillStars();
 }
 
